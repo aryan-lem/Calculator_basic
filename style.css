@@ -1,6 +1,6 @@
 body
 {
-    background-color: #333;
+    background-color: #000;
     display: grid;
     place-content: center;
     min-height: 90vh;
@@ -17,7 +17,7 @@ body
     padding: 5px 5px 5px 5px;
 }
 .box{
-    background-color: rgb(250, 225, 229);
+    background-color: rgb(247, 217, 243);
     display: grid;
     place-content: center;
     /* border: 2px solid white; */
@@ -46,10 +46,10 @@ body
 }
 .num:hover{
     box-shadow: 1px 1px white;
-    background-color: rgb(254, 206, 214);
+    background-color: rgb(192, 134, 143);
 }.op:hover,.equal:hover,.clear:hover{
     box-shadow: 1px 1px 1px 1px white;
-    background-color: rgb(236, 125, 183);
+    background-color: rgb(241, 85, 166);
 }.clear:hover,.all_clear:hover{
     box-shadow: 1px 1px 1px 1px red;
     background-color: red;
