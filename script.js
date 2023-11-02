@@ -66,6 +66,9 @@ result.addEventListener("click",function(){
   if(lastChar==("+")||lastChar==("-")||lastChar==("x")||lastChar==("/")){
     return;
   }
+  if(inputString.indexOf("=")===-1){
+    alert("Operate atleast two numbers!");
+  }
   //now forming an array of numbers without operators
   let numbers=splitMulti(inputString,["+","-","x","/"]);
   //and array of operators without numbers
